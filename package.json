@@ -1,0 +1,25 @@
+{
+  "name": "telegram-bot-real-estate",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aza-saitbot/telegram-bot-real-estate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aza-saitbot/telegram-bot-real-estate/issues"
+  },
+  "homepage": "https://github.com/Aza-saitbot/telegram-bot-real-estate#readme"
+}
