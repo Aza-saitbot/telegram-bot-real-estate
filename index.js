@@ -2,7 +2,6 @@ const TelegramBot = require('node-telegram-bot-api');
 const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs');
 const XLSX = require('xlsx');
-const error = require('telegraf/src/core/network/error')
 
 const uri = 'mongodb+srv://muzakirgarimenkul:X5wXsP3NQkP2ennk@green-invest-gayrinmenk.iquxgug.mongodb.net/?retryWrites=true&w=majority';
 const dbName = 'GREEN-INVEST-GAYRINMENKUL';
@@ -170,7 +169,7 @@ bot.onText(/\/exportmessages/, (msg) => {
 bot.on('message', (msg) => {
     let firstName = msg.from?.first_name;
     let lastName = msg.from?.last_name ?? '';
-    const chatId = msg.chat.id;
+
     const authorName = firstName + ' ' + lastName;
     const messageText = msg.text;
     const messageTime = new Date(msg.date * 1000).toLocaleString(); // Конвертируем время сообщения
