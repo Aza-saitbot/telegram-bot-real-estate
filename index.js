@@ -3,13 +3,13 @@ const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs');
 const XLSX = require('xlsx');
 
-const uri = 'mongodb+srv://muzakirgarimenkul:X5wXsP3NQkP2ennk@green-invest-gayrinmenk.iquxgug.mongodb.net/?retryWrites=true&w=majority';
-const dbName = 'GREEN-INVEST-GAYRINMENKUL';
-const collectionName = 'GREEN-INVEST-GAYRINMENKUL';
+const uri = '';
+const dbName = '';
+const collectionName = 'L';
 
-const botToken = '6108666847:AAFwp6d0DJFKQyuj2AFdGNUv00FLnyqIR-0';
-const targetAccountId = '999109125';
-const groupId = -1001810854616;
+const botToken = '';
+const targetAccountId = '';
+const groupId = ;
 const keywordsFilePath = './keywords.txt';
 
 const exportFilePath = './found_messages.xlsx';
